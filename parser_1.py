@@ -5,7 +5,7 @@ import requests
 # import csv
 from tqdm import tqdm
 
-FILE_OUT_NAME = "flats_test.csv"
+FILE_OUT_NAME = "flats_house_kg.csv"
 
 link_base = "https://www.house.kg/kupit-kvartiru?page="
 
