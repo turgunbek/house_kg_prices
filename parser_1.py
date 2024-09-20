@@ -40,10 +40,11 @@ def get_text_for_analytic(text):
     return res
 
 
-right_border = int(input("Until which page do you want to parse: "))  # 648
+left_border = int(input("From which page do you want to parse: "))
+right_border = int(input("Until which page do you want to parse: "))  # 651
 
 
-for i in tqdm(range(1, right_border+1), desc='Парсинг страниц'):
+for i in tqdm(range(left_border, right_border+1), desc='Парсинг страниц'):
     link = link_base + str(i)
     page_req = requests.get(link)
     page_soup = BeautifulSoup(page_req.text, "html.parser")
