@@ -10,6 +10,7 @@ flats_house_kg_500_650.csv
 photo_parser.ipynb
 test1.csv
 \images
+\temp_files
 .ipynb_checkpoints/concat_csv_files-checkpoint.ipynb
 .ipynb_checkpoints/flats_image_parser-checkpoint.ipynb
 .ipynb_checkpoints/photo_parser-checkpoint.ipynb
@@ -17,3 +18,16 @@ url_images.csv
 image_data.csv
 url_images_3019_3021.csv
 url_images_3020_3021.csv
+images1401_1700.zip
+images_from_Beksultan.zip
+images_2500_3000.zip
+.ipynb_checkpoints/flats_image_parser-Copy1-checkpoint.ipynb
+images_0_1000_and_1701_2000_and_3001_4484.zip
+flats_image_parser-Copy1.ipynb
+download_errors_0_1000.csv
+download_errors_1401_1700.csv
+download_errors_1701_2000.csv
+download_errors_2001_2500.csv
+download_errors_2500_3000.csv
+download_errors_3000_4484.csv
+.gitignore
